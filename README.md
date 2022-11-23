@@ -32,23 +32,23 @@ Será considerado como diferenciais a utilização ou o conhecimento nas seguint
 
 https://documenter.getpostman.com/view/13917264/UVXgKwmi
 
-#### Frontend
+### Frontend
 
 Foi criado em React.js usando o booststrap e styled-icons para estilização.
 O react-router para criar rotas para as paginas de criação, lista de animais e edição de animais. 
 
-##### Orientação para Iniciar o projeto frontend
+#### Orientação para Iniciar o projeto frontend
 
 Para iniciar a aplicação entre na pasta frontend e rode o comando npm install para as dependencias.
 Depois click em start no NPM SCRIPT ou rode o comando 'npm run start' na pasta do projeto
 
-#### Backend - REST_API_2
+### Backend - REST_API_2
 
-Criado em Node, typescript, express, cors e uuid para gerar os id dos animais. 
+Criado em Node, javascript, express, cors e crypto para gerar dados para os testes. 
 A comunicação com banco POSTGRES foi feita usando a biblioteca pg-promise. 
-Segui uma arquitetura de software em Camadas.
+Segui uma arquitetura de software em Camadas e foi criando usando TDD.
 
-##### Orientação para Iniciar o projeto Backend - REST_API_2
+#### Orientação para Iniciar o projeto Backend - REST_API_2
 
 Faça o clone do repositório, abra a pasta REST_API_2 e rode npm i para instalar as dependencias do projeto.
 Para inicializar, entre na pasta server e rode no terminal 'node server'.
