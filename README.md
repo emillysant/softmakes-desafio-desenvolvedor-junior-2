@@ -44,7 +44,7 @@ Depois click em start no NPM SCRIPT ou rode o comando 'npm run start' na pasta d
 
 ### Backend - REST_API_2
 
-Criado em Node, javascript, express, cors e crypto para gerar dados para os testes. 
+Criado em Node, javascript, express, cors, crypto e jest para teste de integração. 
 A comunicação com banco POSTGRES foi feita usando a biblioteca pg-promise. 
 Segui uma arquitetura de software em Camadas e foi criando usando TDD.
 
