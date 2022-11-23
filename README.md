@@ -26,6 +26,8 @@ Será considerado como diferenciais a utilização ou o conhecimento nas seguint
 - Firebase Firestore
 - Serviços de arquitetura em nuvem do Google Cloud Platform
 
+## Solução
+
 ### DOCUMENTAÇÃO DA API 
 
 https://documenter.getpostman.com/view/13917264/UVXgKwmi
@@ -40,7 +42,7 @@ O react-router para criar rotas para as paginas de criação, lista de animais e
 Para iniciar a aplicação entre na pasta frontend e rode o comando npm install para as dependencias.
 Depois click em start no NPM SCRIPT ou rode o comando 'npm run start' na pasta do projeto
 
-#### Orientações - Backend - REST_API_2
+#### Backend - REST_API_2
 
 Criado em Node, typescript, express, cors e uuid para gerar os id dos animais. 
 A comunicação com banco POSTGRES foi feita usando a biblioteca pg-promise. 
@@ -48,7 +50,7 @@ Segui uma arquitetura de software em Camadas.
 
 ##### Orientação para Iniciar o projeto Backend - REST_API_2
 
-Faça o clone do repositório e abra a pasta REST_API_2 e rode npm i para instalar as dependencias do projeto.
-Para inicializar entre na pasta server e rode no terminal 'node server'.
-Para rodar o testes tbm na pasta server rode o comando npm test.
+Faça o clone do repositório, abra a pasta REST_API_2 e rode npm i para instalar as dependencias do projeto.
+Para inicializar, entre na pasta server e rode no terminal 'node server'.
+Para rodar o testes tbm na pasta server rode o comando 'npm test'.
 Observação: O banco deve esta configurado dentro da pasta server > infra. A tabela petshop.animal deve ja esta criada dentro desse banco conforme modelo da pasta database > create.sql
